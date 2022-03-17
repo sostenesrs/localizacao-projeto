@@ -13,12 +13,12 @@ const routes = [
     component: MeuInicio
   },
   {
-    path: '/ListaPessoas',
+    path: '/listapessoas',
     name: 'ListaPessoas',
     component: ListaPessoas
   },
   {
-    path: '/LocalizacaoPessoas',
+    path: '/localizacaopessoas',
     name: 'LocalizacaoPessoas',
     component: LocalizacaoPessoas
   },

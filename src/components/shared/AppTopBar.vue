@@ -26,7 +26,7 @@
                     </v-list-item>
                 </router-link>
 
-                <router-link to="/listaPessoas">
+                <router-link to="/listapessoas">
                     <v-list-item>
                         <v-list-item-icon>
                         <v-icon>mdi-account-multiple-outline</v-icon>
