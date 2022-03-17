@@ -1,15 +1,16 @@
 <template>
+  <div id="app">
   <v-app>
     <AppTopBar/>
     <v-main>
       <router-view/>
     </v-main>
   </v-app>
+  </div>
 </template>
 
 <script>
 import AppTopBar from './components/shared/AppTopBar.vue'
-
 export default {
   name: 'App',
   components: {
@@ -25,15 +26,13 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  background-color: #f8f8ff	;
 }
-
 nav {
   padding: 30px;
-
   a {
     font-weight: bold;
     color: #2c3e50;
-
     &.router-link-exact-active {
       color: #42b983;
     }
