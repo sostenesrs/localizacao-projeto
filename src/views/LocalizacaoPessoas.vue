@@ -5,7 +5,7 @@
         </span>
         <p>País: {{localizacao.country}}</p>
         <p>Código Postal: {{localizacao.postcode}}</p>
-        <p>País: {{localizacao.places}}</p>
+        <p>Places: {{localizacao.places}}</p>
         
     </v-container>
 </template>
